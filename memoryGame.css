@@ -1,0 +1,92 @@
+#game div {
+  border: 5px solid whitesmoke;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+  justify-content: center;
+  color: white;
+  background-color: aliceblue;
+}
+
+
+.flipped {
+  transform: rotateY(180deg); /* Flips the card to show the other side */
+  border: 2px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: fantasy;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  padding-bottom: none ;
+  margin-block-end: 0 ;
+  }
+
+h2 {
+  font-size: 70px;
+  font-family: fantasy;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  padding-bottom: none ;
+  margin-block-end: 0 ;
+  margin-block-start: 0;
+  }
+
+
+
+  #score {
+    font-size: 70px;
+    font-family: fantasy;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    }
+
+  #timer {
+    font-size: 70px;
+    font-family: fantasy;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    }
+
+  #startGameButton {
+    font-size: 40px;
+    font-family: fantasy;
+    display: inline-block;
+    border-radius: 20px;
+    padding: none;
+  }
+
+  #stopGameButton {
+    font-size: 40px;
+    font-family: fantasy;
+    display: inline-block;
+    border-radius: 20px;
+    padding: none;
+  }
+
+  #restartGameButton {
+    font-size: 40px;
+    font-family: fantasy;
+    display: inline-block;
+    border-radius: 20px;
+    padding: none;
+  }
+
+  #buttons {
+    text-align: center;
+  }
